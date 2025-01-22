@@ -1,30 +1,10 @@
 # Simple Notes App
 This is a simple notes app built with React and Django.
 
-## Requirements
-1. Python 3.9
-2. Node.js
-3. React
+## Problem statement task
+<br>
+The project aims to deploy this web application using Docker Swarm, an efficient container orchestration tool that simplifies the management and scaling of containerized applications. In this project I had created a Dockerfile to package the Django-app into a container and deploying it onto a Docker Swarm cluster. The Swarm cluster was configured to provide automated failover, load balancing, and horizontal scaling, showcasing the advantages of Docker Swarm for production deployments.
 
-## Installation
-1. Clone the repository
-```
-git clone https://github.com/LondheShubham153/django-notes-app.git
-```
 
-2. Build the app
-```
-docker build -t notes-app .
-```
-
-3. Run the app
-```
-docker run -d -p 8000:8000 notes-app:latest
-```
-
-## Nginx
-
-Install Nginx reverse proxy to make this application available
-
-`sudo apt-get update`
-`sudo apt install nginx`
+## Credits
+I would like to credit Saurabh Dahibhate for the original project idea that inspired my work on this project.
